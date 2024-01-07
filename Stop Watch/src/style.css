@@ -1,0 +1,92 @@
+body {
+  background-color: #1fcfd2;
+  margin: 0;
+  height: 100vh;
+  font-family: sans-serif;
+  color: #ffffff;
+  background: linear-gradient(to top ,rgb(0, 0, 0) , rgb(57, 8, 8)) repeat;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+button {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3em;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  cursor:pointer;
+  height: 3em;
+  width: 100%;
+}
+
+small {
+  font-size: 3rem;
+}
+
+#outerbox {
+  border: 1px solid #BEB29A;
+  border-radius: 0.7em;
+  height: 30em;
+  width: 45em;
+  display: flex;
+  flex-direction: column;
+}
+
+#timerbox {
+  height: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 7em;
+  font-weight: 600;
+}
+
+#startpause {
+  margin-right: 1em;
+  background: linear-gradient(to right ,#25596d,#018bc6);
+  border-radius: 1rem;
+}
+
+#startpause:hover {
+  background: linear-gradient(to right ,#58aacd,#17b2f5);
+  transition: all 0.3s ease-in-out;
+}
+
+#reset {
+  background: linear-gradient(to right ,#cd0000,#601a1a);
+  border-radius: 1rem;
+}
+
+#reset:hover {
+  background: linear-gradient(to right ,#f61d1d,#a71b1b);
+  transition: all 0.3s ease-in-out;
+}
+
+.inbox {
+  height: 30%;
+  padding: 0 20% 0;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 10px solid #ff0000;
+  border-radius: 5rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  border-top: 10px solid #ff0000;
+  border-radius: 5rem;
+}
